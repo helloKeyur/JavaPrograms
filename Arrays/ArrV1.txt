@@ -1,0 +1,22 @@
+Q1). WHAT IS ARRAY?
+	->	An array is an object that holds a fixed number of values of homogeneous or similar daya-type.
+	->	Or say An Array is a Data Structure where we store similar elements.
+	->	The length of an array is assigned when the array is created and after creation its length is fixed.
+
+	For ex: int a[] = new int[6];
+		->	it will created an array of length 6 and index value will always start from 0.
+
+		=>	0 	1 	2 	3 	4 	5 (index)
+			========================
+		=>	=10	20 	30 	40 	50 	60 =(Elements)
+			========================
+
+Q2).	FEATURES OF AN ARRAY.
+		->	A Java array variable can be declared like other variables with [] after the data type.
+		->	The variables in the array are ordered and each have an index beginning from 0.
+		->	In Java, Array are objects, and thus they occupy memory in "Heap Area".
+		->	The direct superclass of an array type is Object.
+		->	They are always created at runtime.
+		->	The length of an array can be find by using member "length".
+		->	This is different from C/C++ where we find length using sizeof.
+		->	The elements of array are stored in consecutive memory locations.
